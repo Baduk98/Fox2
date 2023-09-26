@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 100; // начальный счёт
-        int y = 400; // сумма пополения
-        int z = y / 100; // бонусы
-        boolean i = y > 1000; // условие
+        int account = 100;
+        int pay = 1500;
+        int bonus = pay / 100;
+        boolean i = pay > 1000;
 
 
-        int m = i ? z : 0; // условие
+        int requirement = i ? bonus : 0;
 
-        int bonus = x + y + m; // итоговый счёт
+        int total = account + pay + requirement;
 
-        System.out.println(bonus);
+        System.out.println(total);
     }
 }
