@@ -4,10 +4,10 @@ public class Main {
         int account = 100;
         int pay = 1500;
         int bonus = pay / 100;
-        boolean i = pay > 1000;
+        boolean condition = pay > 1000;
 
 
-        int requirement = i ? bonus : 0;
+        int requirement = condition ? bonus : 0;
 
         int total = account + pay + requirement;
 
